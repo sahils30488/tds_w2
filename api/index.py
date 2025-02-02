@@ -5,7 +5,7 @@ from http.server import BaseHTTPRequestHandler
 
 # Load student data from the JSON file
 def load_data():
-    with open("./q-vercel-python.json", "r") as file:
+    with open("api/q-vercel-python.json", "r") as file:
         data = json.load(file)
     return data
 
